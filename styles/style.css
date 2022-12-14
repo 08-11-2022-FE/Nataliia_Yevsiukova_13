@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Farro-Light";
+  src: url(../fonts/Farro-Light.woff2) format("woff2");
+  src: url(../fonts/Farro-Light.woff) format("woff");
+  src: url(../fonts/Farro-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "FrancoisOne-Regular";
+  src: url(../fonts/FrancoisOne-Regular.woff2) format("woff2");
+  src: url(../fonts/FrancoisOne-Regular.woff) format("woff");
+  src: url(../fonts/FrancoisOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(../fonts/PTSans-Bold.woff2) format("woff2");
+  src: url(../fonts/PTSans-Bold.woff) format("woff");
+  src: url(../fonts/PTSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PTSans-Italic";
+  src: url(../fonts/PTSans-Italic.woff2) format("woff2");
+  src: url(../fonts/PTSans-Italic.woff) format("woff");
+  src: url(../fonts/PTSans-Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(../fonts/PTSans-Regular.woff2) format("woff2");
+  src: url(../fonts/PTSans-Regular.woff) format("woff");
+  src: url(../fonts/PTSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Staatliches-Regular";
+  src: url(../fonts/Staatliches-Regular.woff2) format("woff2");
+  src: url(../fonts/Staatliches-Regular.woff) format("woff");
+  src: url(../fonts/Staatliches-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tourney-SemiBold";
+  src: url(../fonts/Tourney-SemiBold.woff2) format("woff2");
+  src: url(../fonts/Tourney-SemiBold.woff) format("woff");
+  src: url(../fonts/Tourney-SemiBold.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  min-height: 80px;
+  margin-bottom: 70px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+select {
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  margin-right: 55px;
+  font-family: "Tourney-SemiBold";
+  font-size: 22px;
+  line-height: 1.27;
+}
+[class*="__container"] {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__menu {
+  font-family: "Staatliches-Regular";
+  font-size: 22px;
+  line-height: 1.25;
+}
+[class*="__title"] {
+  font-family: "FrancoisOne-Regular";
+  font-size: 36px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 40px;
+}
+[class*="__title"] > sup {
+  font-family: "Farro-Light";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: capitalize;
+  margin-left: 15px;
+  letter-spacing: 0.04em;
+}
+sup {
+  top: -0.7em;
+}
+section {
+  margin-bottom: 70px;
+}
+[class*="__text"] {
+  font-family: "PTSans";
+  font-size: 28px;
+  line-height: 1.71;
+}
+.underline {
+  text-decoration: underline;
+}
+summary {
+  font-family: "PTSans-Bold";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.71;
+  list-style: none;
+}
+summary::before {
+  content: "+";
+  margin-right: 10px;
+
+  height: 0.8rem;
+}
+.italic {
+  font-family: "PTSans-Italic";
+}
+mark {
+  background-color: #dadada;
+  padding: 15px 5px;
+}
+p {
+  margin-bottom: 40px;
+}
